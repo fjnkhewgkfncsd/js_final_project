@@ -1,0 +1,24 @@
+.Background{
+    background-image: url(../assets/Pictures/bgi2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    padding-bottom:50px;
+
+}
+.insideBackground{
+    position: absolute;
+    text-align: center;
+    color: #6ba7b9;
+    top: 150px;
+    left: 300px;
+    right: 300px;
+    white-space: pre-line; /* Preserves line breaks and wraps text */
+    line-height: 1.8; /* Adjust line spacing for better readability */
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

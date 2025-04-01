@@ -8,6 +8,7 @@ import ProductDetail from "./components/ProductDetail"
 import Cart from "./Pages/Cart"
 import Fav from "./Pages/favorite"
 import Collection from "./Pages/collection"
+import About from "./Pages/About"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/Shopping_cart" element={<Cart />} />
                     <Route path="/Favorite" element={<Fav />} />
                     <Route path="collections/:leagueId" element={<Collection/>}></Route>
+                    <Route path="/About" element={<About />} />
                 </Route>
             </Routes>
         </BrowserRouter>
