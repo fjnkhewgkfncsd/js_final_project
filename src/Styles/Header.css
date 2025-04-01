@@ -1,0 +1,130 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 80px;
+    padding: 0px 0px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  nav ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    position: relative;
+    left: -80px;
+  }
+  nav {
+    width: 300px;
+  }
+  .Icon {
+    width: 40px;
+    color: white;
+  }
+  .Logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .right_panel {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Dropdown Menu Styles */
+  .collections-menu {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    min-width: 970px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  .pic-header{
+    width:250px;
+    height:auto;
+  }
+  .dropdown-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .dropdown-column {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .span{
+    height:220px;
+    width:2px;
+    background-color: grey;
+    position: relative;
+    top: 60px;
+}
+  .dropdown-column h3 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    height: 24px; /* Fixed height for all headers */
+    display: flex;
+    align-items: center;
+    padding:0 0 0 30px;
+  }
+  
+  .dropdown-column ul {
+    display: block;
+    gap: 0;
+    position: static;
+    left: 0;
+  }
+  
+  .dropdown-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-column ul li a {
+    color: #666;
+    font-weight: normal;
+    transition: color 0.3s;
+  }
+  
+  .dropdown-column ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  /* Add a small triangle/arrow to the dropdown */
+  .dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+  
+  

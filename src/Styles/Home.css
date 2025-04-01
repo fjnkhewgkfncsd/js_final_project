@@ -1,0 +1,112 @@
+
+.Landing_img{
+    background-image: url(../assets/Pictures/khmernewyearbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width:100vw;
+    position: relative;
+    z-index: -1;
+    top:70px;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+.eupore_club, .jersey_list, .national{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:1440px;
+    padding:0 0 0 55px;
+    height:500px;
+}
+.euporelist{
+    position: relative;
+    top:60px;
+    background-color: #FFFFFF;
+    color:#ff0000;
+}
+.euporelist h1{
+    color:black !important;
+    font-size:50px;
+    margin:20px 0 0 0;
+}
+.Messi{
+    position: relative;
+    top:63px;
+}
+.Messi a img{
+    height:100vh;
+    width:100vw;
+    z-index: -1;
+}
+.insideMessi{
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.jersey_list {
+    position: relative;
+    top:60px;
+    background-color: #FFFFFF;
+    height:550px;
+    display: flex !important;
+    /* flex-direction: row !important; */
+    justify-content: center !important;
+    width:100vw;
+    padding:10px 0px 30px 10px !important;
+    gap:30px;
+}
+.jersey_list h1{
+    color:black !important;
+    font-size:50px;
+    margin:30px 0px;
+}
+.bayern{
+    position: relative;
+    top:64px;
+}
+.bayern a img{
+    height:100vh;
+    width:100vw;
+    z-index: -1;
+}
+.insidebayern {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.national{
+    background-color: #ffffff;
+    width:100vw;
+    padding:0 30px 0 0;
+    position:relative;
+    top:30px;
+}
+.national h1{
+    color:black;
+    margin-bottom: 0px;
+}
+.neymar a img{
+    height:100vh;
+    width:100vw;
+}
+.neymar{
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    width:100vw;
+}
+.inside_neymar{
+    position: absolute;
+    top:60px;
+    left:890px;
+}

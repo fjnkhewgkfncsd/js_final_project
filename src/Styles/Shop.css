@@ -1,0 +1,22 @@
+.Shop-bg {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    background-image: url(../assets/Pictures/shop1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Shop-bg h1 {
+    position: absolute;
+    top: 190px;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    /* Removed negative z-index */
+}

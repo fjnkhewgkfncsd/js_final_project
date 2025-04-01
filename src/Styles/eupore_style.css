@@ -1,0 +1,44 @@
+.Arrow{
+    width: 50px;
+    height: 50px;
+}
+.display-image{
+    width: 220px;
+    max-height: 320px;
+}
+.A{
+    max-height: 350px;
+}
+.image-display-container{
+    display: flex;
+    gap:55px;
+    align-items: center;
+    
+}
+.nav-button{
+    background: #ffffff;
+}
+.image-title{
+    color:black;
+    padding:0 0 0 10px;
+}
+.image-title h3, p{
+    margin:5px;
+}
+.Jersey img {
+    width:300px;
+    height:320px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Jersey{
+    background: rgb(235, 229, 229);
+    border-radius: 10px;
+
+}
+.Container_list{
+    display: flex;
+    gap:50px;
+    height:420px;
+    justify-content: center;
+    align-items: center;
+}

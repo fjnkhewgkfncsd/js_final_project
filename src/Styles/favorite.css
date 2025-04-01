@@ -1,0 +1,172 @@
+.container-fav{
+    padding:90px 130px !important;
+    background-color: white;
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .breadcrumb a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color:black;
+  }
+  
+  .empty-favorites {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .empty-favorites p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0055aa;
+  }
+  
+  .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  
+  /* Override to always have 3 columns */
+  .favorites-grid.three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Fallback for smaller screens */
+  @media (max-width: 768px) {
+    .favorites-grid.three-columns {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .favorites-grid.three-columns {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .favorite-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 550px;
+  }
+  
+  .favorite-image-container {
+    position: relative;
+  }
+  
+  .favorite-image {
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .remove-favorite-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heart-icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #999;
+    stroke-width: 2;
+  }
+  
+  .heart-icon .filled {
+    fill: #ff3366;
+    stroke: #ff3366;
+  }
+  
+  .favorite-details {
+    padding: 16px;
+  }
+  
+  .favorite-title {
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .favorite-title:hover {
+    color: #0066cc;
+  }
+  
+  .favorite-price {
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  /* Add to Cart Button Styles */
+  .add-to-cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0055aa;
+}
+
+.cart-icon {
+    width: 16px;
+    height: 16px;
+}
